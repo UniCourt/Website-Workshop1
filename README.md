@@ -19,13 +19,19 @@ One Day workshop on understanding Docker
     ```
     cd workshop
     ```
- - Clone Website-Workshop1 repo
+ - Clone Website-Workshop1 repo && go inside Webiste-Workshop1 folder
     ``` 
     git clone https://github.com/UniCourt/Website-Workshop1.git
+    cd Website-Workshop1
     ```
- - cd 'Website-Workshop'
+ - Download dockersamples/101-tutorial image and brig up the container
     ```
     docker run -d -p 8081:80 dockersamples/101-tutorial
+    ```
+ - To open folder in VS code editor
+    ```
+    cd ~/workshop/Website-Workshop1
+    code .
     ```
  - If docker is not installed in your Linux
     ```
