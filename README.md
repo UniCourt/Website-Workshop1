@@ -11,15 +11,25 @@ One Day workshop on understanding Docker
  - Internet Connection
 
 ## Workshop environment setup 
- - git pull 'repo-name'
- - cd 'repo-name'
+ - Create a folder workshop
     ```
-        docker run -d -p 8081:80 dockersamples/101-tutorial
+    mkdir workshop
+    ```
+ - Navigate to the folder workshop and clone the from your personal repo using HTTPS
+    ```
+    cd workshop
+    ```
+ - Clone Website-Workshop1 repo
+    ``` 
+    git clone https://github.com/UniCourt/Website-Workshop1.git
+    ```
+ - cd 'Website-Workshop'
+    ```
+    docker run -d -p 8081:80 dockersamples/101-tutorial
     ```
  - If docker is not installed in your Linux
     ```
-        This script is meant for quick & easy install via:
-        $ sh install-docker-and-docker-compose.sh
+    $ sh install-docker-and-docker-compose.sh
     ```
  - open up http://localhost:8081/ in your browser
 
