@@ -5,7 +5,7 @@ One Day workshop on understanding Docker
 ## Prerequisites
  - Machine/VM with linux
  - Docker  ( https://docs.docker.com/engine/install/ubuntu/ )
- - Docker Compose ( https://docs.docker.com/compose/install/ )
+ - Docker Compose ( https://docs.docker.com/compose/install/compose-plugin/#installing-compose-on-linux-systems )
  - Git     ( https://www.makeuseof.com/install-configure-git-on-linux/ )
  - VS code IDE ( https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-20-04/ )
  - Internet Connection
