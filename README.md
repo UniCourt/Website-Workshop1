@@ -11,6 +11,19 @@ One Day workshop on understanding Docker
  - Internet Connection
 
 ## Workshop environment setup 
+ - Check if Git, Docker and Docker Compose is installed in the system.
+ Open terminal and run following command
+    ```
+      mis@mispl-lap-31:~$ git --version
+      git version 2.25.1
+
+      mis@mispl-lap-31:~$ docker --version
+      Docker version 20.10.12, build e91ed57
+      
+      mis@mispl-lap-31:~$ docker-compose --version
+      docker-compose version 1.25.0, build 0a186604
+
+    ```
  - Create a folder workshop
     ```
     mkdir workshop
