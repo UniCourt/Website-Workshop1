@@ -39,6 +39,11 @@ One Day workshop on understanding Docker
     git clone git@github.com:UniCourt/Website-Workshop1.git
     cd Website-Workshop1
     ```
+ - To open folder in VS code editor
+    ```
+    cd ~/workshop/Website-Workshop1
+    code .
+    ```
  - If docker is not installed in your Linux run the following command
     ```
     $ curl -fsSL https://get.docker.com -o get-docker.sh
@@ -47,11 +52,6 @@ One Day workshop on understanding Docker
  - Download dockersamples/101-tutorial image and bring up the container
     ```
     sudo docker run -d -p 8081:80 dockersamples/101-tutorial
-    ```
- - To open folder in VS code editor
-    ```
-    cd ~/workshop/Website-Workshop1
-    code .
     ```
 
  - open up http://localhost:8081/ in your browser
