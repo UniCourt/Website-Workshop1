@@ -6,8 +6,10 @@ One Day workshop on understanding Docker
  - Machine/VM with linux
  - Docker  ( https://docs.docker.com/engine/install/ubuntu/ )
  - Docker Compose ( https://docs.docker.com/compose/install/compose-plugin/#installing-compose-on-linux-systems )
- - Git     ( https://www.makeuseof.com/install-configure-git-on-linux/ )
+ - Git     ( https://www.atlassian.com/git/tutorials/install-git#linux )
    - Create github account (https://github.com/signup)
+   - Setting up SSH key with GitHub for Ubuntu
+ (https://medium.com/featurepreneur/setting-up-ssh-key-with-github-for-ubuntu-cd8f2fabf25b)
  - VS code IDE ( https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-20-04/ )
  - Internet Connection
 
