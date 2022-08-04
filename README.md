@@ -30,13 +30,13 @@ One Day workshop on understanding Docker
     ```
     mkdir workshop
     ```
- - Navigate to the folder workshop and clone the from your personal repo using HTTPS
+ - Navigate to the folder workshop and clone the from your personal repo using git
     ```
     cd workshop
     ```
  - Clone Website-Workshop1 repo && go inside Webiste-Workshop1 folder
     ``` 
-    git clone https://github.com/UniCourt/Website-Workshop1.git
+    git clone git@github.com:UniCourt/Website-Workshop1.git
     cd Website-Workshop1
     ```
  - Download dockersamples/101-tutorial image and brig up the container
