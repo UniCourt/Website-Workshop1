@@ -5,7 +5,6 @@ One Day workshop on understanding Docker
 ## Prerequisites
  - Machine/VM with linux
  - Docker  ( https://docs.docker.com/engine/install/ubuntu/ )
- - Docker Compose ( https://docs.docker.com/compose/install/compose-plugin/#installing-compose-on-linux-systems )
  - Git     ( https://www.atlassian.com/git/tutorials/install-git#linux )
    - Create github account (https://github.com/signup)
    - Setting up SSH key with GitHub for Ubuntu
@@ -21,13 +20,13 @@ One Day workshop on understanding Docker
       git version 2.25.1
 
       mis@mispl-lap-31:~$ docker --version
-      Docker version 20.10.12, build e91ed57
+      Docker version 20.10.17, build 100c701
 
-      mis@mispl-lap-31:~$ docker-compose --version
-      docker-compose version 1.25.0, build 0a186604
+      mis@mispl-lap-31:~$ docker compose version
+      Docker Compose version v2.6.0
 
     ```
- - Create a folder workshop
+ - Open terminal and run following command to create a folder called workshop
     ```
     mkdir workshop
     ```
