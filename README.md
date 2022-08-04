@@ -4,7 +4,7 @@ One Day workshop on understanding Docker
 
 ## Prerequisites
  - Machine/VM with linux
- - Docker  ( https://docs.docker.com/engine/install/ubuntu/ )
+ - Docker  ( https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script )
  - Git     ( https://www.atlassian.com/git/tutorials/install-git#linux )
    - Create github account (https://github.com/signup)
    - Setting up SSH key with GitHub for Ubuntu
@@ -39,19 +39,21 @@ One Day workshop on understanding Docker
     git clone git@github.com:UniCourt/Website-Workshop1.git
     cd Website-Workshop1
     ```
- - Download dockersamples/101-tutorial image and brig up the container
+ - If docker is not installed in your Linux run the following command
     ```
-    docker run -d -p 8081:80 dockersamples/101-tutorial
+    $ curl -fsSL https://get.docker.com -o get-docker.sh
+    $ sudo sh get-docker.sh
+   ```
+ - Download dockersamples/101-tutorial image and bring up the container
+    ```
+    sudo docker run -d -p 8081:80 dockersamples/101-tutorial
     ```
  - To open folder in VS code editor
     ```
     cd ~/workshop/Website-Workshop1
     code .
     ```
- - If docker is not installed in your Linux
-    ```
-    $ sh install-docker-and-docker-compose.sh
-    ```
+
  - open up http://localhost:8081/ in your browser
 
 ## Docker
