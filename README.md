@@ -13,19 +13,18 @@ One Day workshop on understanding Docker and Containers. Learn to run a containe
  - Internet Connection and Chrome browser.
 
 ## Workshop environment setup 
- - Check if Git, Docker and Docker Compose is installed in the system.
- Open terminal and run following command
-    ```
-      mis@mispl-lap-31:~$ git --version
-      git version 2.25.1
+ - Check if Git, Docker, and Docker Compose are installed in on the system. Open the terminal and run the following command
+   ```
+   mis@mispl-lap-31:~$ git --version
+   git version 2.25.1
 
-      mis@mispl-lap-31:~$ docker --version
-      Docker version 20.10.17, build 100c701
+   mis@mispl-lap-31:~$ docker --version
+   Docker version 20.10.17, build 100c701
 
-      mis@mispl-lap-31:~$ docker compose version
-      Docker Compose version v2.6.0
+   mis@mispl-lap-31:~$ docker compose version
+   Docker Compose version v2.6.0
 
-    ```
+   ```
  - Open terminal and run following command to create a folder called workshop
     ```
     mkdir workshop
