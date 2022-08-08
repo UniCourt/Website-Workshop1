@@ -1,6 +1,6 @@
 # Docker 101 Workshop - Day 1
 
-One Day workshop on understanding Docker and Contaniers. Learn to run a container, inspect a container and understand the isolation of processes, create a Dockerfile, build an image from a Dockerfile and understand volume mount, data persistance with bind mounts, creating multiple containers from single image, run multiple containers using docker compose and more.
+One Day workshop on understanding Docker and Contaniers. Learn to run a container, inspect a container and understand the isolation of processes. Create a Dockerfile, build an image from a Dockerfile. Learn on how to mount application code using volume mount and bind mounts. Learn how to make your app data persistent accross multiple containers. Learn how to create multiple containers from single image, run multiple containers using docker compose and more.
 
 ## Prerequisites
  - Machine/VM with linux
