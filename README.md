@@ -1,6 +1,6 @@
 # Docker 101 Workshop - Day 1
 
-One Day workshop on understanding Docker
+One Day workshop on understanding Docker and Contaniers. Learn to run a container, inspect a container and understand the isolation of processes, create a Dockerfile, build an image from a Dockerfile and understand volume mount, data persistance with bind mounts, creating multiple containers from single image, run multiple containers using docker compose and more.
 
 ## Prerequisites
  - Machine/VM with linux
@@ -56,12 +56,12 @@ One Day workshop on understanding Docker
 
  - open up http://localhost:8081/ in your browser
 
-## Docker
-- By the end of this workshop you will understand following things
-    - You will be Introduced to the concept of containerisation and why its required.
-    - You will learn how to Build and run your own Containers.
-    - You will learn how to Run Multiple Services with Docker Compose
-    - You will learn how to Build and run PHP and NGNIX containers.
+## What will you learn by the end of this workshop?
+- By the end of this workshop you will understand what is docker and how to setup the containers.
+- You will be Introduced to the concept of containerisation and why its required.
+- You will learn how to Build and run your own Containers.
+- You will learn how to Run Multiple Services with Docker Compose.
+- You will learn how to Build and run PHP and NGNIX containers.
 
 ## Schedule
 
