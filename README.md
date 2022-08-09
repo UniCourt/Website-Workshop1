@@ -1,6 +1,6 @@
 # Docker 101 Workshop - Day 1
 
-One Day workshop on understanding Docker
+One Day workshop on understanding Docker and Containers. Learn to run a container, inspect a container and understand the isolation of processes. Create a Dockerfile, and build an image from a Dockerfile. Learn how to mount application code using volume mount. Learn how to make your app data persistent across multiple containers. Learn how to create multiple containers from a single image, run multiple containers using docker-compose, and more.
 
 ## Prerequisites
  - Machine/VM with linux
@@ -10,22 +10,21 @@ One Day workshop on understanding Docker
    - Setting up SSH key with GitHub for Ubuntu
  (https://medium.com/featurepreneur/setting-up-ssh-key-with-github-for-ubuntu-cd8f2fabf25b)
  - VS code IDE ( https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-20-04/ )
- - Internet Connection
+ - Internet Connection and Chrome browser.
 
 ## Workshop environment setup 
- - Check if Git, Docker and Docker Compose is installed in the system.
- Open terminal and run following command
-    ```
-      mis@mispl-lap-31:~$ git --version
-      git version 2.25.1
+ - Check if Git, Docker, and Docker Compose are installed in on the system. Open the terminal and run the following command
+   ```
+   mis@mispl-lap-31:~$ git --version
+   git version 2.25.1
 
-      mis@mispl-lap-31:~$ docker --version
-      Docker version 20.10.17, build 100c701
+   mis@mispl-lap-31:~$ docker --version
+   Docker version 20.10.17, build 100c701
 
-      mis@mispl-lap-31:~$ docker compose version
-      Docker Compose version v2.6.0
+   mis@mispl-lap-31:~$ docker compose version
+   Docker Compose version v2.6.0
 
-    ```
+   ```
  - Open terminal and run following command to create a folder called workshop
     ```
     mkdir workshop
@@ -56,12 +55,12 @@ One Day workshop on understanding Docker
 
  - open up http://localhost:8081/ in your browser
 
-## Docker
-- By the end of this workshop you will understand following things
-    - You will be Introduced to the concept of containerisation and why its required.
-    - You will learn how to Build and run your own Containers.
-    - You will learn how to Run Multiple Services with Docker Compose
-    - You will learn how to Build and run PHP and NGNIX containers.
+## What will you learn by the end of this workshop?
+- By the end of this workshop, you will learn what docker is and understand how to set up containers.
+- You will be introduced to containerization concepts and why it is required.
+- You will learn how to build and run your own Containers.
+- You will learn how to run Multiple Services with Docker Compose.
+- You will learn how to build and run PHP and NGNIX containers.
 
 ## Schedule
 
