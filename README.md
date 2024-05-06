@@ -3,7 +3,7 @@
 One Day workshop on understanding Docker and Containers. Learn to run a container, inspect a container and understand the isolation of processes. Create a Dockerfile, and build an image from a Dockerfile. Learn how to mount application code using volume mount. Learn how to make your app data persistent across multiple containers. Learn how to create multiple containers from a single image, run multiple containers using docker-compose, and more.
 
 ## Prerequisites
- - Machine/VM with linux
+ - Ubuntu 20.04 LTS  ( https://releases.ubuntu.com/focal/ubuntu-20.04.5-desktop-amd64.iso )
  - Docker  ( https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script )
  - Git     ( https://www.atlassian.com/git/tutorials/install-git#linux )
    - Create github account (https://github.com/signup)
@@ -35,7 +35,7 @@ One Day workshop on understanding Docker and Containers. Learn to run a containe
     ```
  - Clone Website-Workshop1 repo && go inside Webiste-Workshop1 folder
     ``` 
-    git clone git@github.com:UniCourt/Website-Workshop1.git
+    git clone git@github.com:<YOUR-GIT-ID>/Website-Workshop1.git
     cd Website-Workshop1
     ```
  - To open folder in VS code editor
