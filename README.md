@@ -2,6 +2,15 @@
 
 One Day workshop on understanding Docker and Containers. Learn to run a container, inspect a container and understand the isolation of processes. Create a Dockerfile, and build an image from a Dockerfile. Learn how to mount application code using volume mount. Learn how to make your app data persistent across multiple containers. Learn how to create multiple containers from a single image, run multiple containers using docker-compose, and more.
 
+## Pre-WorkShop Prerequisites
+ - Ubuntu 20.04 LTS  ( https://releases.ubuntu.com/focal/ubuntu-20.04.5-desktop-amd64.iso )
+ - Install a Python Web Server (https://github.com/data-charya/demo-flask)
+ - Install any one Relational Database (MySQL or PostgreSQL)
+   - MySQL Installation (https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
+   - PostgreSQL Installation (https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart)
+ - VS code IDE ( https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-20-04/ )
+ - Any default Browser.
+   
 ## Prerequisites
  - Ubuntu 20.04 LTS  ( https://releases.ubuntu.com/focal/ubuntu-20.04.5-desktop-amd64.iso )
  - Docker  ( https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script )
