@@ -1,13 +1,6 @@
-# Base image 
 FROM node:10-alpine
-
-# Create a directory to hold the application code inside the image
 WORKDIR /app
-
-COPY . .
-
-# Install app dependencies
+COPY package.json yarn.lock ./
 RUN yarn install --production
-
-#ENTRYPOINT ["tail", "-f", "/dev/null"]
+COPY . .
 CMD ["node", "/app/src/index.js"]
