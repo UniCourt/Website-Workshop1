@@ -1,1 +1,2 @@
-1
+docker build -t docker-101 .
+#builds docker 
