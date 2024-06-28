@@ -45,3 +45,5 @@ docker run -dp 3001:3000 \
     -w /app -v $PWD:/app \
     node:10-alpine \
     sh -c "yarn install && yarn run dev"
+
+    balls
