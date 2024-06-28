@@ -1,0 +1,49 @@
+docker build -t docker-101 .
+# builds docker 
+
+docker run -dp 3000:3000 docker-101
+# Start your container using the docker run command:
+
+Remember the -d and -p flags? We're running the new container in "detached" mode (in the background) and creating a mapping between 
+the host's port 3000 to the container's port 3000.
+
+docker tag local-image:tagname new-repo:tagname
+docker push new-repo:tagname
+
+docker tag docker-101 nitpow007/101-todo-app
+
+docker run -d ubuntu bash -c "shuf -i 1-10000 -n 1 -o /data.txt && tail -f /dev/null"
+
+docker exec <container-id> cat /data.txt
+docker exec 3985b08693a2 cat /data.txt
+
+docker volume create todo-db
+
+docker run -dp 3000:3000 -v todo-db:/etc/todos docker-101
+
+docker volume inspect todo-db
+nitpow@nitpow-HP-Laptop-14-dq2xxx:~/Desktop/Workshop/Docker_Uni_w1/app$ docker volume inspect todo-db
+[
+    {
+        "CreatedAt": "2024-06-28T06:39:44Z",
+        "Driver": "local",
+        "Labels": null,
+        "Mountpoint": "/var/lib/docker/volumes/todo-db/_data",
+        "Name": "todo-db",
+        "Options": null,
+        "Scope": "local"
+    }
+]
+
+docker network create todo-app
+
+  
+    mysql:8.0
+
+
+docker run -dp 3001:3000 \
+    -w /app -v $PWD:/app \
+    node:10-alpine \
+    sh -c "yarn install && yarn run dev"
+
+    balls
