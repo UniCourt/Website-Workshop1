@@ -1,5 +1,5 @@
 # Base image 
-FROM node:10-alpine
+FROM node:lts-alpine
 
 # Create a directory to hold the application code inside the image
 WORKDIR /app
